@@ -1,0 +1,50 @@
+23:44:27.039 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Automation Framework\OpenCart\master.xml"
+23:44:27.581 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Automation Framework\OpenCart\master.xml
+
+23:44:37.785 [main] INFO  testCases.TC_AccountRegisterPositiveTests - **** Starting TC001_AccountRegisterTest ****
+23:44:39.573 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Clicked on 'My Account' menu.
+23:44:40.379 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Clicked on 'Registration' menu.
+23:44:42.891 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Registration test passed.
+23:44:42.891 [main] INFO  testCases.TC_AccountRegisterPositiveTests - **** Finished TC001_AccountRegisterTest ****
+23:44:47.675 [main] INFO  testCases.TC_AccountRegisterPositiveTests - **** Starting TC001_AccountRegisterTest - All Fields Required Check ****
+23:44:48.402 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Clicked on 'My Account' menu.
+23:44:49.178 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Clicked on 'Registration' menu.
+23:44:49.753 [main] INFO  testCases.TC_AccountRegisterPositiveTests - First Name alert validation passed.
+23:44:49.783 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Last Name alert validation passed.
+23:44:49.815 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Email alert validation passed.
+23:44:49.841 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Telephone alert validation passed.
+23:44:49.874 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Password alert validation passed.
+23:44:49.874 [main] INFO  testCases.TC_AccountRegisterPositiveTests - **** Finished TC001_AccountRegisterTest - All Fields Required Check ****
+23:44:54.019 [main] INFO  testCases.TC_AccountRegisterPositiveTests - **** Starting test for missing First Name ****
+23:44:55.856 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Clicked on 'Registration' menu.
+23:44:57.520 [main] INFO  testCases.TC_AccountRegisterPositiveTests - First Name alert validation passed.
+23:44:57.521 [main] INFO  testCases.TC_AccountRegisterPositiveTests - **** Finished test for missing First Name ****
+23:45:01.450 [main] INFO  testCases.TC_AccountRegisterPositiveTests - **** Starting test for missing Last Name ****
+23:45:03.485 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Clicked on 'Registration' menu.
+23:45:05.661 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Last Name alert validation passed.
+23:45:05.662 [main] INFO  testCases.TC_AccountRegisterPositiveTests - **** Finished test for missing Last Name ****
+23:45:10.178 [main] INFO  testCases.TC_AccountRegisterPositiveTests - **** Starting test for missing Email ****
+23:45:10.736 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Clicked on 'Registration' menu.
+23:45:13.210 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Email alert validation passed.
+23:45:13.211 [main] INFO  testCases.TC_AccountRegisterPositiveTests - **** Finished test for missing Email ****
+23:45:17.822 [main] INFO  testCases.TC_AccountRegisterPositiveTests - **** Starting test for missing Telephone ****
+23:45:19.639 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Clicked on 'Registration' menu.
+23:45:21.127 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Telephone alert validation passed.
+23:45:21.128 [main] INFO  testCases.TC_AccountRegisterPositiveTests - **** Finished test for missing Telephone ****
+23:45:24.855 [main] INFO  testCases.TC_AccountRegisterPositiveTests - **** Starting test for missing Password ****
+23:45:26.875 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Clicked on 'Registration' menu.
+23:45:28.327 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Password alert validation passed.
+23:45:28.327 [main] INFO  testCases.TC_AccountRegisterPositiveTests - **** Finished test for missing Password ****
+23:45:32.168 [main] INFO  testCases.TC_AccountRegisterPositiveTests - **** Starting test for Password and Confirm Password Match ****
+23:45:33.134 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Clicked on 'My Account' menu.
+23:45:33.814 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Clicked on 'Registration' menu.
+23:45:35.292 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Password and Confirm Password alert validation passed.
+23:45:35.292 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Password mismatch test passed.
+23:45:35.292 [main] INFO  testCases.TC_AccountRegisterPositiveTests - **** Finished test for Password and Confirm Password Match ****
+23:45:39.213 [main] INFO  testCases.TC_AccountRegisterPositiveTests - **** Starting test for Password and Confirm Password Match (when same) ****
+23:45:40.138 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Clicked on 'My Account' menu.
+23:45:40.821 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Clicked on 'Registration' menu.
+23:45:43.342 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Account creation alert validation passed.
+23:45:43.342 [main] INFO  testCases.TC_AccountRegisterPositiveTests - Password matching test passed.
+23:45:43.343 [main] INFO  testCases.TC_AccountRegisterPositiveTests - **** Finished test for Password and Confirm Password Match (when same) ****
