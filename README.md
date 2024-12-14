@@ -1,7 +1,3 @@
-Here's a sample **README.md** file for your automation framework based on the file structure shown in the image.
-
----
-
 # **OpenCart Automation Framework**
 
 This repository contains the automated test framework for **OpenCart** using **Selenium** and Java. It follows the **Page Object Model (POM)** structure to ensure modularity, reusability, and maintainability of the test scripts.
