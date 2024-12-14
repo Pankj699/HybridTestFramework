@@ -91,7 +91,7 @@ The project is organized as follows:
 
 2. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Pankj699/HybridTestFramework.git
    cd OpenCart
    ```
 
