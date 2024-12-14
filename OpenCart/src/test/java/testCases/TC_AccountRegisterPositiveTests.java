@@ -40,7 +40,7 @@ public class TC_AccountRegisterPositiveTests extends BaseClass {
         logger.info("Positive registration test passed.");
     }
 
-    @Test(priority = 9)
+    @Test(priority = 2)
     public void verifyPasswordAndConfirmPasswordMatchWhenSame() {
         navigateToRegistrationPage();
         String password = randomAlphaNumber();

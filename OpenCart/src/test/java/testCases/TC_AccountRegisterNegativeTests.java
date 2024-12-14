@@ -38,7 +38,7 @@ public class TC_AccountRegisterNegativeTests extends BaseClass {
         logger.info(fieldName + " alert validation passed.");
     }
 
-    @Test(priority = 2)
+    @Test(priority = 1)
     public void verifyAccountRegistrationAllFieldsRequired() {
         navigateToRegistrationPage();
         AccountRegistrationPage regPage = new AccountRegistrationPage(driver);
@@ -50,7 +50,7 @@ public class TC_AccountRegisterNegativeTests extends BaseClass {
         validateAlertMessage("Password", regPage.getPasswordAlert(), PASS_ALERT);
     }
 
-    @Test(priority = 3)
+    @Test(priority = 2)
     public void verifyMissingFirstName() {
         navigateToRegistrationPage();
         AccountRegistrationPage regPage = new AccountRegistrationPage(driver);
@@ -65,7 +65,7 @@ public class TC_AccountRegisterNegativeTests extends BaseClass {
         validateAlertMessage("First Name", regPage.getFirstNameAlert(), FNAME_ALERT);
     }
 
-    @Test(priority = 4)
+    @Test(priority = 3)
     public void verifyMissingLastName() {
         navigateToRegistrationPage();
         AccountRegistrationPage regPage = new AccountRegistrationPage(driver);
@@ -80,7 +80,7 @@ public class TC_AccountRegisterNegativeTests extends BaseClass {
         validateAlertMessage("Last Name", regPage.getLastNameAlert(), LNAME_ALERT);
     }
 
-    @Test(priority = 5)
+    @Test(priority = 4)
     public void verifyMissingEmail() {
         navigateToRegistrationPage();
         AccountRegistrationPage regPage = new AccountRegistrationPage(driver);
@@ -95,7 +95,7 @@ public class TC_AccountRegisterNegativeTests extends BaseClass {
         validateAlertMessage("Email", regPage.getEmailAlert(), EMAIL_ALERT);
     }
 
-    @Test(priority = 6)
+    @Test(priority = 5)
     public void verifyMissingTelephone() {
         navigateToRegistrationPage();
         AccountRegistrationPage regPage = new AccountRegistrationPage(driver);
@@ -110,7 +110,7 @@ public class TC_AccountRegisterNegativeTests extends BaseClass {
         validateAlertMessage("Telephone", regPage.getTelephoneAlert(), TEL_ALERT);
     }
 
-    @Test(priority = 7)
+    @Test(priority = 6)
     public void verifyMissingPassword() {
         navigateToRegistrationPage();
         AccountRegistrationPage regPage = new AccountRegistrationPage(driver);
@@ -123,7 +123,7 @@ public class TC_AccountRegisterNegativeTests extends BaseClass {
         validateAlertMessage("Password", regPage.getPasswordAlert(), PASS_ALERT);
     }
 
-    @Test(priority = 8)
+    @Test(priority = 7)
     public void verifyPasswordAndConfirmPasswordMatch() {
         navigateToRegistrationPage();
         String password = randomAlphaNumber();
